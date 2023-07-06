@@ -38,9 +38,9 @@ Mais comme je ne pense jamais en envoyer les nouvelles builds, regardez plutôt 
 - Pixel Studio 4.59
 - Photoshop 2023
 - Gimp 2.10.34
-- Photoflare 1.6.12 Version Community 
+- Photofiltre 6.5.3
 - Unity 2020.3.46f1
-- Visual Studio 17.5.4
+- Microsoft Visual Studio Community 2022 (version 17.5.5)
 - Visual Studio Code 1.77.3
 
 ### Remerciements

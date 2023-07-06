@@ -121,7 +121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9037946325574127948, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.7
+      value: 2.58
       objectReference: {fileID: 0}
     - target: {fileID: 9037946325574127948, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -145,11 +145,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9037946326444827428, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 353.08
+      value: 59.39
       objectReference: {fileID: 0}
     - target: {fileID: 9037946326444827428, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.49
+      value: -11.12772
       objectReference: {fileID: 0}
     - target: {fileID: 9037946326444827428, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
       propertyPath: m_LocalPosition.z
@@ -185,7 +185,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9037946326444827611, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
       propertyPath: m_Name
-      value: Centipede Variant
+      value: Centipede (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9037946326444827611, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcac58ea3e00bf547a7a9221ad89fc85, type: 3}

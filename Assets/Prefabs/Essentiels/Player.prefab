@@ -5044,9 +5044,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxOxygen: 100
   currentOxygen: 0
-  invincibilityTimeAfterHit: 3
-  invincibilityFlashDelay: 0.2
-  isInvincible: 0
   graphics: {fileID: 6920768103166315978}
   waterBar: {fileID: 0}
 --- !u!114 &900230384
@@ -5063,8 +5060,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arrowPrefab: {fileID: 7124572380035962319}
   arrowSpawnPoint: {fileID: 13672021}
-  arrowSpeed: 10
-  fireRate: 0.5
   sound: {fileID: 8300000, guid: 4cb2310403911034c8bb20fbfceb5f1a, type: 3}
 --- !u!1 &6920768104410045305
 GameObject:

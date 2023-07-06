@@ -6,12 +6,13 @@ public class arc : MonoBehaviour
 
     public GameObject arrowPrefab;
     public Transform arrowSpawnPoint;
-    public float arrowSpeed = 10f;
-    public float fireRate = 0.5f;
+
+    private float arrowSpeed = 10f; /* Vitesse de la flèche */
+    private float fireRate = 0.5f; /* Durée de vie de la flèche */
 
     private bool isShooting = false;
 
-    public AudioClip sound;
+    public AudioClip sound; 
 
     private void Update()
     {
@@ -47,7 +48,7 @@ public class arc : MonoBehaviour
 
             arrow.SetActive(true);
             arrow.GetComponent<SpriteRenderer>().flipX = false;
-            Debug.Log("vers la droite");
+            Debug.Log("je vais tirer vers la droite");
 
             rb.velocity = arrowSpawnPoint.right * arrowSpeed;
 
@@ -64,7 +65,7 @@ public class arc : MonoBehaviour
 
             arrow.SetActive(true);
             arrow.GetComponent<SpriteRenderer>().flipX = true;
-            Debug.Log("vers la gauche");
+            Debug.Log("je vais tirer vers la gauche");
 
             rb.velocity = -arrowSpawnPoint.right * arrowSpeed;
 

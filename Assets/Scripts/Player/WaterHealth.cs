@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class WaterHealth : MonoBehaviour
 {
-    public int maxOxygen = 100; /* par defaut, on a 100 point de vie */
-    public int currentOxygen;  /* via actuelle */
+    public int maxOxygen = 100; /* par defaut, on a 100 point d'oxygène */
+    public int currentOxygen;  /* quantité d'oxygène actuelle */
 
-    public float invincibilityTimeAfterHit = 3f;
-    public float invincibilityFlashDelay = 0.2f;
-    public bool isInvincible = false; /* par defaut, le perso n'est pas invinsible */
+    // public float invincibilityTimeAfterHit = 3f;
+    // public float invincibilityFlashDelay = 0.2f;
+    // public bool isInvincible = false; /* par defaut, le perso n'est pas invinsible */
 
     public SpriteRenderer graphics; /* fait référence au dessin du player */
     public WaterBar waterBar;

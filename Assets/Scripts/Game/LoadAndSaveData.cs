@@ -20,6 +20,7 @@ public class LoadAndSaveData : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         /* chargement des données sauvegardées */
         /* O est la valeur par défaut, si le joueur n'a pas encore joué */
         Inventory.Instance.coinsCount = PlayerPrefs.GetInt("coinsCount", 0);
@@ -41,6 +42,7 @@ public class LoadAndSaveData : MonoBehaviour
 
     public void SaveData()
     {
+
         /* sauvegarde du nombre de pièces en passant la valeur */
         PlayerPrefs.SetInt("coinsCount", Inventory.Instance.coinsCount);
 

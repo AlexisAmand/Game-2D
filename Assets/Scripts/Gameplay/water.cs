@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-/* Ce script gére l'entrée du player dans l'eau */
+/* Ce script gère l'entrée du player dans l'eau */
 
 public class water : MonoBehaviour
 {
@@ -9,15 +9,15 @@ public class water : MonoBehaviour
     // le joueur est-il dans la zone ?
     private bool isPlayerInTrapZone = false;
 
-    // quantité d'oxygène gagné ou perdu
+    // Quantité d'oxygène gagné ou perdu
     private int looseOxygen = 13;
     private int recoveryOxygen = 20;
 
-    // durée entre deux pertes ou deux récupérations d'oxygène
+    // Durée entre deux pertes ou deux récupérations d'oxygène
     private WaitForSeconds loseInterval = new WaitForSeconds(2f);
     private WaitForSeconds winInterval = new WaitForSeconds(1f);
 
-    // sons du joueur et l'eau
+    // Sons du joueur et l'eau
     public AudioClip ploufSound;
     public AudioClip bubbleSound;
 
