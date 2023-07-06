@@ -49,7 +49,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
@@ -677,6 +676,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3824}
     - Class: 114
       Script: {instanceID: 4416}
+    - Class: 114
+      Script: {instanceID: 4684}
     - Class: 114
       Script: {instanceID: 4792}
     - Class: 114
@@ -1587,7 +1588,7 @@ ScriptsOnlyBuild:
     className: ColorLookup
   - hash:
       serializedVersion: 2
-      Hash: e60cb3a77f2522e78a9b05e8de5aa9c1
+      Hash: dc2d4dc1ad5b5cb90d50ddce05ea45b4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WaterHealth
@@ -1599,7 +1600,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerGroup
   - hash:
       serializedVersion: 2
-      Hash: d3bbd1f86b55a6168b664522b2cf57b3
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: arrow
@@ -2055,7 +2056,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 0ce387f07f5d059ee5e77163021b0392
+      Hash: 5f1445589dd5464f9cc84d943ec7e3ca
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: arc
@@ -2163,7 +2164,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 738c23b7b3b2a8414d48e37a088fd920
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ennemyShoot
