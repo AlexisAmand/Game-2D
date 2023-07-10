@@ -14,6 +14,11 @@ public class ennemyShoot : MonoBehaviour
             // on détruit de gameobject de l'ennemi
             Destroy(collision.gameObject);
             Destroy(gameObject);
+
+            // on ajoute des pieces à l'inventaire
+            //Inventory.Instance.AddCoins(5);
+            //CurrentSceneManager.Instance.coinsPickedUpInThisSceneCount++;
+
         }
     }
 }

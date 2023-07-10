@@ -4952,6 +4952,7 @@ MonoBehaviour:
   animator: {fileID: 6920768103166315977}
   SpriteRenderer: {fileID: 6920768103166315978}
   playerCollider: {fileID: 6920768103166315975}
+  soundJump: {fileID: 8300000, guid: cd129404693ab71408f80d483d5f9fa9, type: 3}
 --- !u!50 &6920768103166315972
 Rigidbody2D:
   serializedVersion: 4
@@ -5098,6 +5099,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6920768103166315979}
     m_Modifications:
+    - target: {fileID: 1933532085, guid: 23e7343d010677a42a5d360bd3338353, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1933532086, guid: 23e7343d010677a42a5d360bd3338353, type: 3}
       propertyPath: m_Size.x
       value: 1.2041807

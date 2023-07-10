@@ -36,3 +36,4 @@ Sounds  effects :
 - [Plouf, petit](https://lasonotheque.org/detail-1529-plouf-petit-1.html)
 - [Pixabay sound effects](https://pixabay.com/sound-effects/)
 - [12 Player Movement SFX](https://opengameart.org/content/12-player-movement-sfx)
+- [YoFrankie! (c) 2008, Blender Foundation](https://opengameart.org/content/cartoony-jump-and-bounce)

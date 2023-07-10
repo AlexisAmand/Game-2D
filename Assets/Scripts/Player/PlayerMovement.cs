@@ -29,6 +29,9 @@ public class PlayerMovement : MonoBehaviour
 
     public static PlayerMovement Instance;
 
+    // sons à jouer au moment du saut
+    public AudioClip soundJump;
+
     private void Awake()
     {
         if (Instance != null)
@@ -88,6 +91,8 @@ public class PlayerMovement : MonoBehaviour
             if (isJumping)
             {
                 rb.AddForce(new Vector2(0f, jumpForce));
+                // on joue le son de saut
+                AudioManager.Instance.PlayClipAt(soundJump, transform.position);
                 isJumping = false; /* Après le saut... on est plus en train de sauter */
             }
         } else

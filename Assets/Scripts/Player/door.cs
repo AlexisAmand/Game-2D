@@ -1,17 +1,23 @@
+using UnityEngine.UI;
 using UnityEngine;
 
 public class door : MonoBehaviour
 {
     public GameObject doorGameObject;
-    public Canvas doorUICanvas;
-
+    private Text doorUI;
     private bool playerInRange;
+
+    void Awake()
+    {
+        doorUI = GameObject.FindGameObjectWithTag("DoorUI").GetComponent<Text>();
+    }
 
     void Start()
     {
-        doorUICanvas.enabled = false;
+        doorUI.enabled = false;
        // playerInRange = false;
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
@@ -20,14 +26,14 @@ public class door : MonoBehaviour
             if (Inventory.Instance.keysCount > 0)
             {
                 // Player has enough keys, hide UI and destroy door object
-                doorUICanvas.enabled = false;
+                doorUI.enabled = false;
                 doorGameObject.SetActive(false);
                 Inventory.Instance.RemoveKeys(1);
             }
             else
             {
                 // Player does not have enough keys, show UI
-                doorUICanvas.enabled = true;
+                doorUI.enabled = true;
                // playerInRange = true;
             }
         }
@@ -39,7 +45,7 @@ public class door : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // Player is no longer in range, hide UI
-            doorUICanvas.enabled = false;
+            doorUI.enabled = false;
            // playerInRange = false;
         }
     }
