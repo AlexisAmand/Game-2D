@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c619878944a06c4793b01b4f5f20b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: 4abae1ef5a7f45645b949334ec3fd546, type: 3}
+  sound: {fileID: 8300000, guid: 4f3862e3ad6e489438d321cf8b6250bd, type: 3}
 --- !u!1 &9037946324751296443
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,7 +261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9037946325399124818}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.46, y: 0.5819464, z: 26.547146}
+  m_LocalPosition: {x: -4.38, y: 0.5819464, z: 26.547146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9037946326444827428}

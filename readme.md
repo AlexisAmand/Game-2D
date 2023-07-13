@@ -41,7 +41,7 @@ Mais comme je ne pense jamais en envoyer les nouvelles builds, regardez plutôt 
 - Photofiltre 6.5.3
 - Unity 2020.3.46f1
 - Microsoft Visual Studio Community 2022 (version 17.6.4)
-- Visual Studio Code 1.79.2
+- Visual Studio Code 1.80
 
 ### Remerciements
 

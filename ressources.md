@@ -37,3 +37,4 @@ Sounds  effects :
 - [Pixabay sound effects](https://pixabay.com/sound-effects/)
 - [12 Player Movement SFX](https://opengameart.org/content/12-player-movement-sfx)
 - [YoFrankie! (c) 2008, Blender Foundation](https://opengameart.org/content/cartoony-jump-and-bounce)
+- [ArcadeParty](https://opengameart.org/content/zombie-skeleton-monster-voice-effects)
