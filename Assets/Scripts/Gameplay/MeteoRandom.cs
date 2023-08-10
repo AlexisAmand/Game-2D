@@ -1,3 +1,4 @@
+using System.Net.Security;
 using UnityEngine;
 
 public class MeteoRandom : MonoBehaviour
@@ -5,6 +6,9 @@ public class MeteoRandom : MonoBehaviour
 
     public GameObject rainGenerator;
     public GameObject snowGenerator;
+
+    public bool rainActived = true;
+    public bool snowActived = true;
 
     void Start()
     {
@@ -17,17 +21,23 @@ public class MeteoRandom : MonoBehaviour
         switch (meteo)
         {
             case 1:
-                Debug.Log("Il pleut !");
-                /* On affiche le générateur de pluie, on masque le générateur de neige. Il pleut. */
-                rainGenerator.SetActive(true);
-                snowGenerator.SetActive(false);
+                if (rainActived)
+                {
+                    Debug.Log("Il pleut !");
+                    /* On affiche le générateur de pluie, on masque le générateur de neige. Il pleut. */
+                    rainGenerator.SetActive(true);
+                    snowGenerator.SetActive(false);
+                }
                 break;
 
             case 2:
-                Debug.Log("Il neige !");
-                /* On masque le générateur de pluie, on affiche le générateur de neige. il neige. */
-                rainGenerator.SetActive(false);
-                snowGenerator.SetActive(true);
+                if (snowActived)
+                {
+                    Debug.Log("Il neige !");
+                    /* On masque le générateur de pluie, on affiche le générateur de neige. il neige. */
+                    rainGenerator.SetActive(false);
+                    snowGenerator.SetActive(true);
+                }
                 break;
 
             default:
