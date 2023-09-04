@@ -95,7 +95,8 @@ public class PlayerMovement : MonoBehaviour
                 AudioManager.Instance.PlayClipAt(soundJump, transform.position);
                 isJumping = false; /* Après le saut... on est plus en train de sauter */
             }
-        } else
+        } 
+        else
         {
 
             /* vers quelle direction va le perso ? */
