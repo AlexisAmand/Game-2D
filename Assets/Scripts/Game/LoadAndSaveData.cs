@@ -57,7 +57,7 @@ public class LoadAndSaveData : MonoBehaviour
 
         /* sauvegarde du niveau atteint si le niveau atteint est un niveau qui n'a pas encore été débloqué */
 
-        if(CurrentSceneManager.Instance.levelToUnlock > PlayerPrefs.GetInt("levelReached", 1))
+        if (CurrentSceneManager.Instance.levelToUnlock > PlayerPrefs.GetInt("levelReached", 1))
         {
             PlayerPrefs.SetInt("levelReached", CurrentSceneManager.Instance.levelToUnlock);
         }
