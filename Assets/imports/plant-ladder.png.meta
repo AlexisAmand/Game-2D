@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -150,6 +151,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -425,6 +438,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      plant-ladder_0: 4344970833605528788
+      plant-ladder_1: 6831875934147071389
+      plant-ladder_10: -3983836986473053928
+      plant-ladder_11: 7561512825145424769
+      plant-ladder_2: -3491517305943404121
+      plant-ladder_3: 7452603137525113061
+      plant-ladder_4: -941605836885125652
+      plant-ladder_5: -5989004178434538466
+      plant-ladder_6: 2427629573019067372
+      plant-ladder_7: 3374325643043195419
+      plant-ladder_8: -6963129170530802023
+      plant-ladder_9: -1928681618123145753
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

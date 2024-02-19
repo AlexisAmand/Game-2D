@@ -57,6 +57,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -111,6 +112,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -365,6 +378,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Penguin SpriteSheet_0: -6952167744412224664
+      Penguin SpriteSheet_1: -1783279179563432887
+      Penguin SpriteSheet_10: -2445067681884779459
+      Penguin SpriteSheet_2: 874856994858898069
+      Penguin SpriteSheet_3: 8602182715261804482
+      Penguin SpriteSheet_4: 3069168474489134513
+      Penguin SpriteSheet_5: 6873325428708858496
+      Penguin SpriteSheet_6: 1903663895123470868
+      Penguin SpriteSheet_7: 8763140454544805355
+      Penguin SpriteSheet_8: 1153540465900696464
+      Penguin SpriteSheet_9: 3440023528042415173
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

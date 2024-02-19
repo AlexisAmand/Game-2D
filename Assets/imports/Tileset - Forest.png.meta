@@ -183,7 +183,7 @@ TextureImporter:
       213: -8202906002551602060
     second: Tileset - foret_59
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -204,6 +204,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -242,6 +243,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -269,6 +271,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1552,6 +1566,67 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Tileset - foret_0: 1083865580430745239
+      Tileset - foret_1: -3218394893217580408
+      Tileset - foret_10: 552346454394074958
+      Tileset - foret_11: 6955891128550007781
+      Tileset - foret_12: -4211293731585529343
+      Tileset - foret_13: 3171092846162045881
+      Tileset - foret_14: -5865090468823268135
+      Tileset - foret_15: 1169845821239999943
+      Tileset - foret_16: 9159682913571916391
+      Tileset - foret_17: -5150270776647575733
+      Tileset - foret_18: 8872827429882109457
+      Tileset - foret_19: 920711687177826695
+      Tileset - foret_2: 4634030319967824660
+      Tileset - foret_20: -5810993516062413915
+      Tileset - foret_21: -5851455072850141701
+      Tileset - foret_22: -8398778028786959117
+      Tileset - foret_23: -5356369745473077469
+      Tileset - foret_24: 16660598751696222
+      Tileset - foret_25: -3921833225260093340
+      Tileset - foret_26: -5132376041451742266
+      Tileset - foret_27: -3296731090118344799
+      Tileset - foret_28: 9172318504460070973
+      Tileset - foret_29: 6455939901308590495
+      Tileset - foret_3: -7715560781936139183
+      Tileset - foret_30: 1918633075275983994
+      Tileset - foret_31: -5875871717094790763
+      Tileset - foret_32: 4561508423538105083
+      Tileset - foret_33: 461912756745990401
+      Tileset - foret_34: 629398470172915521
+      Tileset - foret_35: -551943788746728872
+      Tileset - foret_36: -5933388112450531026
+      Tileset - foret_37: -736560420319967663
+      Tileset - foret_38: -6009802779962394024
+      Tileset - foret_39: -322108576008594580
+      Tileset - foret_4: 6912903937655016862
+      Tileset - foret_40: -2432085030094866775
+      Tileset - foret_41: -4229378946329091539
+      Tileset - foret_42: -225787825569689423
+      Tileset - foret_43: 7492771795702974037
+      Tileset - foret_44: 2847036437907424889
+      Tileset - foret_45: -9197435746251224109
+      Tileset - foret_46: 2961406497281562827
+      Tileset - foret_47: -1076304351303269111
+      Tileset - foret_48: -4306581758573995148
+      Tileset - foret_49: -5054925887261069000
+      Tileset - foret_5: 8893781834568248414
+      Tileset - foret_50: 5275971095320627373
+      Tileset - foret_51: 4973458009394440616
+      Tileset - foret_52: -793925703637040773
+      Tileset - foret_53: 2512291899364200305
+      Tileset - foret_54: -2273979468719946107
+      Tileset - foret_55: -1394545129183119844
+      Tileset - foret_56: 15781307275364672
+      Tileset - foret_57: -7257539966278088491
+      Tileset - foret_58: -3211913245044617403
+      Tileset - foret_59: -8202906002551602060
+      Tileset - foret_6: -250581902919322199
+      Tileset - foret_7: -6275515293336718398
+      Tileset - foret_8: -5275406504362826598
+      Tileset - foret_9: -107575376906577334
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

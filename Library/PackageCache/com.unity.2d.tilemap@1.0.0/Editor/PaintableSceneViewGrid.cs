@@ -70,7 +70,7 @@ namespace UnityEditor.Tilemaps
 
             // Case 1077400: SceneView camera transform changes may update the mouse grid position even though the mouse position has not changed
             var currentSceneViewTransformHash = sceneView.camera.transform.localToWorldMatrix.GetHashCode();
-            UpdateMouseGridPosition(currentSceneViewTransformHash == sceneViewTransformHash);
+            UpdateMouseGridPosition(currentSceneViewTransformHash != sceneViewTransformHash);
             sceneViewTransformHash = currentSceneViewTransformHash;
 
             var dot = 1.0f;
@@ -137,6 +137,7 @@ namespace UnityEditor.Tilemaps
                 GridPaintingState.activeBrushEditor.OnMouseEnter();
             GridPaintingState.activeGrid = this;
             activeSceneView = sceneView;
+            UpdateMouseGridPosition(true);
             ResetPreviousMousePositionToCurrentPosition();
         }
 
@@ -230,6 +231,16 @@ namespace UnityEditor.Tilemaps
                 gridBrush.MoveEnd(grid, brushTarget, position);
         }
 
+        protected override bool CustomTool(bool isHotControl, TilemapEditorTool tool, Vector3Int position)
+        {
+            var executed = false;
+            if (grid != null)
+            {
+                executed = tool.HandleTool(isHotControl, grid, brushTarget, position);
+            }
+            return executed;
+        }
+
         protected override void OnEditStart()
         {
             if (GridPaintingState.activeBrushEditor != null && grid != null)
@@ -246,6 +257,8 @@ namespace UnityEditor.Tilemaps
         {
             GridSelection.Clear();
         }
+
+        public override bool isActive => grid != null;
 
         public override void Repaint()
         {

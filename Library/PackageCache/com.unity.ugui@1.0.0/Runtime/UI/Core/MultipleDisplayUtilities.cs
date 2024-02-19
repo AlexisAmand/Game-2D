@@ -37,7 +37,7 @@ namespace UnityEngine.UI
         /// <returns></returns>
         public static Vector3 RelativeMouseAtScaled(Vector2 position)
         {
-            #if !UNITY_EDITOR
+            #if !UNITY_EDITOR && !UNITY_WSA
             // If the main display is now the same resolution as the system then we need to scale the mouse position. (case 1141732)
             if (Display.main.renderingWidth != Display.main.systemWidth || Display.main.renderingHeight != Display.main.systemHeight)
             {

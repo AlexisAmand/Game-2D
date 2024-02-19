@@ -76,7 +76,7 @@ namespace UnityEngine.UI.Collections
 
             if (index >= m_EnabledObjectCount)
                 return true;
-      
+
             if (index < m_EnabledObjectCount - 1)
                 Swap(index, m_EnabledObjectCount - 1);
 

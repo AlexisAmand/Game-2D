@@ -170,3 +170,17 @@ The following packages were updated:
   com.unity.collab-proxy from version 1.17.6 to 2.0.1
   com.unity.ide.rider from version 3.0.16 to 3.0.18
   com.unity.ide.visualstudio from version 2.0.16 to 2.0.17
+
+=== Fri Feb 16 17:45:48 2024
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.2d.psdimporter from version 4.3.0 to 6.0.7
+  com.unity.2d.spriteshape from version 5.3.0 to 7.0.7
+  com.unity.collab-proxy from version 2.0.1 to 2.1.0
+  com.unity.ide.rider from version 3.0.18 to 3.0.25
+  com.unity.ide.visualstudio from version 2.0.17 to 2.0.21
+  com.unity.render-pipelines.universal from version 10.10.1 to 12.1.12
+  com.unity.timeline from version 1.4.8 to 1.6.5

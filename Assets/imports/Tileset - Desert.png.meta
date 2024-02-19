@@ -183,7 +183,7 @@ TextureImporter:
       213: 4657198095693725958
     second: Tileset - Copie_59
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -204,6 +204,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -242,6 +243,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -269,6 +271,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1552,6 +1566,67 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Tileset - Copie_0: 5899289503714089498
+      Tileset - Copie_1: 5000919279645565043
+      Tileset - Copie_10: -3562033709383710047
+      Tileset - Copie_11: -1863123391118875343
+      Tileset - Copie_12: 8330126266067689525
+      Tileset - Copie_13: 5474475452610673332
+      Tileset - Copie_14: 1699260100402762785
+      Tileset - Copie_15: 200253404890676643
+      Tileset - Copie_16: 5267052443997865285
+      Tileset - Copie_17: 170908854014714740
+      Tileset - Copie_18: 861107070248561296
+      Tileset - Copie_19: -1865809908542172350
+      Tileset - Copie_2: 7200779158473626175
+      Tileset - Copie_20: -6051409674612695440
+      Tileset - Copie_21: 8519957138564159564
+      Tileset - Copie_22: -2966591693618860529
+      Tileset - Copie_23: 8493764214789850777
+      Tileset - Copie_24: -7211785081082223533
+      Tileset - Copie_25: -4575013866994399111
+      Tileset - Copie_26: -4061768376987979874
+      Tileset - Copie_27: -249415290363733414
+      Tileset - Copie_28: 6646563941587614576
+      Tileset - Copie_29: 1391591323468064254
+      Tileset - Copie_3: 6855247794996879322
+      Tileset - Copie_30: -6308888939339484195
+      Tileset - Copie_31: -4873984507669300157
+      Tileset - Copie_32: -616084319102330678
+      Tileset - Copie_33: 2898128021580056940
+      Tileset - Copie_34: 3489029981817249093
+      Tileset - Copie_35: 8576148003097697830
+      Tileset - Copie_36: -1358396120921080965
+      Tileset - Copie_37: -983618385587567572
+      Tileset - Copie_38: -5500047424853578544
+      Tileset - Copie_39: -6084761033793405542
+      Tileset - Copie_4: 1370399955345756810
+      Tileset - Copie_40: -1821874724254380069
+      Tileset - Copie_41: 7220670611917367956
+      Tileset - Copie_42: 8662110528805547650
+      Tileset - Copie_43: 8800508456922261168
+      Tileset - Copie_44: 3850252635130410060
+      Tileset - Copie_45: -713911792212539078
+      Tileset - Copie_46: 3550149753878223264
+      Tileset - Copie_47: 3335996540477797663
+      Tileset - Copie_48: -3999041663410976009
+      Tileset - Copie_49: -1353163091117289307
+      Tileset - Copie_5: 5424582245616620685
+      Tileset - Copie_50: -8783427522294869062
+      Tileset - Copie_51: 9196251378267603523
+      Tileset - Copie_52: -4614393699900035427
+      Tileset - Copie_53: -4176512485021412942
+      Tileset - Copie_54: -5525324400979342970
+      Tileset - Copie_55: 4257644746934549143
+      Tileset - Copie_56: -5006594883642588558
+      Tileset - Copie_57: 6698777262470364718
+      Tileset - Copie_58: 2042796309523324559
+      Tileset - Copie_59: 4657198095693725958
+      Tileset - Copie_6: 3089581758138226675
+      Tileset - Copie_7: -7734101769428404807
+      Tileset - Copie_8: -7892325596101318101
+      Tileset - Copie_9: 8816866413309190629
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
