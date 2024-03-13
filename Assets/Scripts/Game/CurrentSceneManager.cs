@@ -34,6 +34,7 @@ public class CurrentSceneManager : MonoBehaviour
         respawnPoint = GameObject.FindGameObjectWithTag("Player").transform.position;
 
         /* affichage du numéro de niveau en cours */
+
         int currentlevel = levelToUnlock - 1;
         levelTitle.text = "Level   #" + currentlevel.ToString();
 

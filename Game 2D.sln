@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asset-store-tools-editor", "asset-store-tools-editor.csproj", "{E9659A44-9522-B420-9770-6FDB394B9C02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meryel.CodeAssist.Editor", "Meryel.CodeAssist.Editor.csproj", "{AE5570E6-67DA-9174-51C1-44F0B29647C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{E9659A44-9522-B420-9770-6FDB394B9C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9659A44-9522-B420-9770-6FDB394B9C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9659A44-9522-B420-9770-6FDB394B9C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5570E6-67DA-9174-51C1-44F0B29647C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5570E6-67DA-9174-51C1-44F0B29647C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5570E6-67DA-9174-51C1-44F0B29647C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5570E6-67DA-9174-51C1-44F0B29647C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

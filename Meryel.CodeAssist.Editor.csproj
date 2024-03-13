@@ -57,36 +57,36 @@
     <Analyzer Include="D:\Program Files\Microsoft Visual Studio\2022\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Input\UnityInputManager.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Input\Text2Yaml.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Monitor.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\MemorySink.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\ELogger.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\CommonTools.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\UnityClassExtensions.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Input\Binary2TextExec.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\TinyJson\JsonWriter.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\EditorCoroutines\EditorWaitForSeconds.cs" />
     <Compile Include="Assets\Plugins\CodeAssist\Editor\StatusWindow.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\NetMQInitializer.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Preferences\PreferenceEntryHolder.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\UnitySink.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Preferences\PreferenceStorageAccessor.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\TinyJson\JsonWriter.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Preferences\RegistryMonitor.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\EditorCoroutines\EditorWindowCoroutineExtension.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\FeedbackWindow.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Input\UnityInputManager.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\Attributes.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\CommonTools.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Input\Binary2TextExec.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Assister.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Input\Text2Yaml.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\TinyJson\JsonParser.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\EditorCoroutines\EditorCoroutineUtility.cs" />
     <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\DomainHashEnricher.cs" />
     <Compile Include="Assets\Plugins\CodeAssist\Editor\Preferences\PreferenceMonitor.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\AboutWindow.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\MainThreadDispatcher.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Preferences\RegistryMonitor.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Assister.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\UnitySink.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\TinyJson\JsonParser.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Monitor.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\EditorCoroutines\EditorWaitForSeconds.cs" />
     <Compile Include="Assets\Plugins\CodeAssist\Editor\EditorCoroutines\EditorCoroutine.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Input\InputManagerMonitor.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\NetMQInitializer.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\MainThreadDispatcher.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\UnityClassExtensions.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\ELogger.cs" />
     <Compile Include="Assets\Plugins\CodeAssist\Editor\NetMQPublisher.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Preferences\PreferenceEntryHolder.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\EditorCoroutines\EditorWindowCoroutineExtension.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\Attributes.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\EditorCoroutines\EditorCoroutineUtility.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\AboutWindow.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Logger\MemorySink.cs" />
     <Compile Include="Assets\Plugins\CodeAssist\Editor\ScriptFinder.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\FeedbackWindow.cs" />
-    <Compile Include="Assets\Plugins\CodeAssist\Editor\Preferences\PreferenceStorageAccessor.cs" />
+    <Compile Include="Assets\Plugins\CodeAssist\Editor\Input\InputManagerMonitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\CodeAssist\Editor\ExternalReferences\NaCl.dll" />
@@ -363,26 +363,26 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="AsyncIO">
       <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\AsyncIO.dll</HintPath>
     </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
     <Reference Include="Serilog">
       <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="NetMQ">
       <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\NetMQ.dll</HintPath>
     </Reference>
     <Reference Include="NaCl">
       <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\NaCl.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.1.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Meryel.UnityCodeAssist.YamlDotNet">
       <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\Meryel.UnityCodeAssist.YamlDotNet.dll</HintPath>

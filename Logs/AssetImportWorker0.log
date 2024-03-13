@@ -15,7 +15,7 @@ C:/Users/alexi/Mon Drive/Projets Unity/Game 2D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64564
+58525
 Successfully changed project path to: C:/Users/alexi/Mon Drive/Projets Unity/Game 2D
 C:/Users/alexi/Mon Drive/Projets Unity/Game 2D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/alexi/Mon Drive/Projets Unity/Game 2D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20928] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 2718794589 [EditorId] 2718794589 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LTMOI1P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25744] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 4060950276 [EditorId] 4060950276 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LTMOI1P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20928] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 2718794589 [EditorId] 2718794589 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LTMOI1P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25744] Host "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 4060950276 [EditorId] 4060950276 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LTMOI1P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 86.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.31f1 (3409e2af086f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -68,90 +68,118 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010991 seconds.
+Registered in 0.010081 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
+- Completed reload, in  0.869 seconds
 Domain Reload Profiling:
-	ReloadAssembly (805ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (870ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (546ms)
-			LoadAssemblies (125ms)
+		EndReloadAssembly (592ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (148ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (313ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (90ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015351 seconds.
+Registered in 0.015890 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.929 seconds
+- Completed reload, in  2.022 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1930ms)
+	ReloadAssembly (2022ms)
 		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1595ms)
-			LoadAssemblies (138ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1697ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (341ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (1075ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1113ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (722ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (754ms)
 				ProcessInitializeOnLoadMethodAttributes (107ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3763 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 46 unused Assets / (0.6 MB). Loaded Objects now: 4237.
 Memory consumption went from 191.0 MB to 190.3 MB.
-Total: 3.724500 ms (FindLiveObjects: 0.335100 ms CreateObjectMapping: 0.169100 ms MarkObjects: 2.845700 ms  DeleteObjects: 0.373700 ms)
+Total: 3.566600 ms (FindLiveObjects: 0.380600 ms CreateObjectMapping: 0.279800 ms MarkObjects: 2.618700 ms  DeleteObjects: 0.286400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26840.754259 seconds.
+  path: Assets/Prefabs/DeathZone.prefab
+  artifactKey: Guid(282ce567057fd364383c8545569e3d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/DeathZone.prefab using Guid(282ce567057fd364383c8545569e3d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9e95d62b50f8e2a1b11d7c9307408d') in 0.083850 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.6 MB). Loaded Objects now: 4238.
+Memory consumption went from 108.6 MB to 107.9 MB.
+Total: 4.682300 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.253800 ms MarkObjects: 3.815500 ms  DeleteObjects: 0.296900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,118 +195,24 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 3274.599352 seconds.
-  path: Assets/MainMenu/titre.psd
-  artifactKey: Guid(5a0313d8891064241939c9c5597ecfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MainMenu/titre.psd using Guid(5a0313d8891064241939c9c5597ecfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f70aef59ba265865db75b554db0183') in 0.264471 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/MainMenu/titre-02.png
-  artifactKey: Guid(aa5774bf3ca1fcc428d11d2fef3aefb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MainMenu/titre-02.png using Guid(aa5774bf3ca1fcc428d11d2fef3aefb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36a1938def22f471756333c21510bbd') in 0.038044 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/MainMenu/top.png
-  artifactKey: Guid(b5a7799ace1d6d147b84bbb0f4303960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/MainMenu/top.png using Guid(b5a7799ace1d6d147b84bbb0f4303960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0177bdaf547033c147cdb2e7cbeafa2c') in 0.058821 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.575062 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_1.png
-  artifactKey: Guid(be1bb0dde0983ae489dcdd208bcd87fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_1.png using Guid(be1bb0dde0983ae489dcdd208bcd87fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d69e40f3d112c9cbe6becd78907c55') in 0.028220 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_8.png
-  artifactKey: Guid(992a3ca0d4973e449815aaef231d4ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_8.png using Guid(992a3ca0d4973e449815aaef231d4ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cb6fc25432fdfa6946e1c4dfcebac8') in 0.018979 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_tree_3.png
-  artifactKey: Guid(cc102a8fa6a5573458ae17dd1c444dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_tree_3.png using Guid(cc102a8fa6a5573458ae17dd1c444dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ea72b73e0d21f77834f83c0a5bf708') in 0.019756 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_7.png
-  artifactKey: Guid(c69297961ce5943429b8b5e0933e1445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_7.png using Guid(c69297961ce5943429b8b5e0933e1445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bcf3d2d0c20270c37aa0da27fb36a9') in 0.021601 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_11.png
-  artifactKey: Guid(21fcb6a0b6dd2df46a49dd8e141d5da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_11.png using Guid(21fcb6a0b6dd2df46a49dd8e141d5da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a8449d3afcbe7935ed3106e758500a') in 0.020523 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_tree_4.png
-  artifactKey: Guid(d8cc18542cd9b3a439b318eb4f6b8642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_tree_4.png using Guid(d8cc18542cd9b3a439b318eb4f6b8642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facdd4a1ea86cdc82c1da631c4f309d1') in 0.023005 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_tree_1.png
-  artifactKey: Guid(c21729558a55a8f42b42d2e888f07892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_tree_1.png using Guid(c21729558a55a8f42b42d2e888f07892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27313ac938cb5df1132848b80dacb909') in 0.019384 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_9.png
-  artifactKey: Guid(7c7b1dad5ce3b0d46be000c28201b7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_9.png using Guid(7c7b1dad5ce3b0d46be000c28201b7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bba459be533bb75cf8e28684a61e966') in 0.031176 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_tree_8.png
-  artifactKey: Guid(b3796d61c05dece419eb5cb83102c954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_tree_8.png using Guid(b3796d61c05dece419eb5cb83102c954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd403ad52f2e7d42bed35b69e6a9e2185') in 0.028422 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_4.png
-  artifactKey: Guid(6fa29287f13fed4489bbba3f5b060e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_conifer_tree_4.png using Guid(6fa29287f13fed4489bbba3f5b060e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf246121c816367bff424f0b2eb8c89') in 0.024091 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/imports/Trees/craftpix/tree assets/PNG/winter_tree_9.png
-  artifactKey: Guid(8956719c4bb22374e9300765a3afcfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/imports/Trees/craftpix/tree assets/PNG/winter_tree_9.png using Guid(8956719c4bb22374e9300765a3afcfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbedbf5c5e5d2280d172b791e5e1e025') in 0.021111 seconds 
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.6 MB). Loaded Objects now: 4238.
+Memory consumption went from 108.6 MB to 107.9 MB.
+Total: 4.561000 ms (FindLiveObjects: 0.363500 ms CreateObjectMapping: 0.252500 ms MarkObjects: 3.642000 ms  DeleteObjects: 0.302100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
